@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Suite" parallel="methods">
+<!--  Here used thread count as 3 it means 3 thread will run three methods which are declared in below class file
+In ParallelTesting class file contains 3 @test methods. Here thread count is 3 and parallel= methods, then three tests runs parallel in 3 threads
+If thread count is 2 then two threads will run 2 tests. When any thread gets free then remaining case will get execute.
+If there are 2 classes and parallel="methods" then all the methods which present in class 1 will run parallel and after completion of class 1, class 2 @test methods will run parallel.
+
+Suppose if parallel= "classes" and xml contains only one class then all the @test present in class run one after another
+If parallel="classes" then two classes will run parallel based on the threads 
+
+Suppose if parallel ="tests" and xml as only one test tag then @test method present in classes will run one after another. 
+If parallel="tests" then two tests tags which are defined in xml with tests will run parallely. Please find the below commented test tags.
+ -->
+  <test name="Parallel_Testing">
+    <classes>
+      <class name="com.parallelTesting.ParallelTesting"/>
+      <class name="com.parallelTesting.ParallelTesting2"></class>
+    </classes>
+  </test> <!-- Test -->
+   <!-- <test name="Parallel_Testing2">
+    <classes>
+      <class name="com.parallelTesting.ParallelTesting2"/>
+    
+    </classes>
+  </test> Test -->
+</suite> <!-- Suite -->

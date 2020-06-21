@@ -1,0 +1,212 @@
+How to write a script in AutoIT?
+For AutoIt scripting, you should have three things ready.
+
+1-AutoIt Editor- Editor helps us to write AutoIt scripts.
+
+2-Tool Finder – It will help us to identify the element and check their Attributes.
+
+3- AutoIt Help section- This help you to understand about AutoIt functions and what are the parameter it accepts.
+
+Let’s start with Downloading first
+
+Step 1– Navigate to AutoIt  official website  https://www.autoitscript.com/site/autoit/downloads/  and go to download section or Click here Download AutoIt
+
+Step 2– Click on Download AutoIt and Install
+
+Step 3–  Click on Download Editor and Install.
+
+You are here: Home / Advance Selenium / AutoIT / Upload File in Selenium Webdriver using Autoit
+Upload File in Selenium Webdriver using Autoit
+March 16, 2020 by Mukesh Otwani 63 Comments
+
+Upload File in Selenium Webdriver using Autoit
+This guide will show you how to Upload File in Selenium Webdriver using Autoit Step by Step guide in a simple manner.
+
+1-While automating web-application many times you will get window-based activity like- file upload, file download pop-up, window authentication for secure sites, etc. In this case, Selenium will fail and will not be able to handle desktop elements.
+
+We can upload files in Selenium using different ways
+
+1- Using sendKeys method
+
+2- Using Robot class
+
+3- Using AutoIT
+
+4- Using WGET
+
+Let me explain to you the easiest way which works most of the time using sendKeys
+
+Syntax
+
+driver.findElement(By.xpath("xpath of any element")).sendKeys("File Path");
+
+Example
+
+driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:\\Downloads\\Mukesh.png");
+
+or
+
+driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Downloads/Mukesh.png");
+
+Explanation- You do not have to click on file uploader because if you click on the file upload button, it will start file uploader which you need to handle separately.
+
+You can find the locator of the element where the file needs to be updated and then you can pass the file path directly, files can be excel, png or any type depends on your application.
+
+Note- In case of sendKeys method does not work then you can go ahead with all other options.
+
+ 
+
+Introduction to AutoIT tool
+1-AutoIt is a freeware automation tool that can work with desktop applications too.
+
+2-It uses a combination of keystrokes, mouse movement and window/control manipulation in order to automate tasks in a way not possible or reliable with other languages (e.g. VBScript and SendKeys).
+
+For more info about AutoIT, you can visit their Official Website AutoIt Official Website
+
+Upload File in Selenium Webdriver using Autoit
+
+ 
+http://learn-automation.com/upload-file-in-selenium-webdriver-using-autoit/
+                    
+How to write a script in AutoIT?
+For AutoIt scripting, you should have three things ready.
+
+1-AutoIt Editor- Editor helps us to write AutoIt scripts.
+
+2-Tool Finder – It will help us to identify the element and check their Attributes.
+
+3- AutoIt Help section- This help you to understand about AutoIt functions and what are the parameter it accepts.
+
+Let’s start with Downloading first
+
+Step 1– Navigate to AutoIt  official website  https://www.autoitscript.com/site/autoit/downloads/  and go to download section or Click here Download AutoIt
+
+Step 2– Click on Download AutoIt and Install
+
+Step 3–  Click on Download Editor and Install.
+Upload File in Selenium Webdriver using Autoit
+
+Step 4– Once both are installed in your machine, check all are installed correctly.
+
+Note- Generally it goes to C:\Program Files\AutoIt3 location if you do not change it
+
+ Step5– Open SCiTE folder and  Click on SciTE this will open AutoIt Editor
+ 
+ Now Upload file script in editor
+ 
+ Step 1- Open Editor and Finder Tool
+ You are here: Home / Advance Selenium / AutoIT / Upload File in Selenium Webdriver using Autoit
+Upload File in Selenium Webdriver using Autoit
+March 16, 2020 by Mukesh Otwani 63 Comments
+
+Upload File in Selenium Webdriver using Autoit
+This guide will show you how to Upload File in Selenium Webdriver using Autoit Step by Step guide in a simple manner.
+
+1-While automating web-application many times you will get window-based activity like- file upload, file download pop-up, window authentication for secure sites, etc. In this case, Selenium will fail and will not be able to handle desktop elements.
+
+We can upload files in Selenium using different ways
+
+1- Using sendKeys method
+
+2- Using Robot class
+
+3- Using AutoIT
+
+4- Using WGET
+
+Let me explain to you the easiest way which works most of the time using sendKeys
+
+Syntax
+
+driver.findElement(By.xpath("xpath of any element")).sendKeys("File Path");
+
+Example
+
+driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:\\Downloads\\Mukesh.png");
+
+or
+
+driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:/Downloads/Mukesh.png");
+
+Explanation- You do not have to click on file uploader because if you click on the file upload button, it will start file uploader which you need to handle separately.
+
+You can find the locator of the element where the file needs to be updated and then you can pass the file path directly, files can be excel, png or any type depends on your application.
+
+Note- In case of sendKeys method does not work then you can go ahead with all other options.
+
+ 
+
+Introduction to AutoIT tool
+1-AutoIt is a freeware automation tool that can work with desktop applications too.
+
+2-It uses a combination of keystrokes, mouse movement and window/control manipulation in order to automate tasks in a way not possible or reliable with other languages (e.g. VBScript and SendKeys).
+
+For more info about AutoIT, you can visit their Official Website AutoIt Official Website
+
+Upload File in Selenium Webdriver using Autoit
+
+ 
+
+YouTube video for Same 
+
+
+                    
+How to write a script in AutoIT?
+For AutoIt scripting, you should have three things ready.
+
+1-AutoIt Editor- Editor helps us to write AutoIt scripts.
+
+2-Tool Finder – It will help us to identify the element and check their Attributes.
+
+3- AutoIt Help section- This help you to understand about AutoIt functions and what are the parameter it accepts.
+
+Let’s start with Downloading first
+
+Step 1– Navigate to AutoIt  official website  https://www.autoitscript.com/site/autoit/downloads/  and go to download section or Click here Download AutoIt
+
+Step 2– Click on Download AutoIt and Install
+
+Step 3–  Click on Download Editor and Install.
+Upload File in Selenium Webdriver using Autoit
+
+ 
+
+Step 4– Once both are installed in your machine, check all are installed correctly.
+
+Note- Generally it goes to C:\Program Files\AutoIt3 location if you do not change it
+
+Upload File in Selenium Webdriver using Autoit
+
+ 
+
+ 
+
+ Step5– Open SCiTE folder and  Click on SciTE this will open AutoIt Editor
+
+ 
+
+Upload File in Selenium Webdriver using Autoit
+Once all Installed Let’s see how we can write the script.
+
+ 
+
+Upload File in Selenium Webdriver using Autoit
+To Upload File in Selenium Webdriver using AutoIt we need to take care of some steps so let’s begin
+
+To upload a file in Selenium Webdriver we will create AutoIT script, which will handle file-uploaded window, and then we will combine Selenium script with AutoIt scripts.
+
+Click on the Upload button you will get a file uploader we will handle the same using AutoIt.
+
+ 
+
+Step 1- Open Editor and Finder Tool
+
+Upload File in Selenium Webdriver using Autoit
+
+Step 2– We need to write script to upload file so we will use some method of AutoIt.
+Each method will have some own functionality
+ControlFocus-This will give focus on the window
+
+ControlSetText-This will set the file path
+
+ControlClick-This will click on button

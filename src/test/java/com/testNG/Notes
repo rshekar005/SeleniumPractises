@@ -1,0 +1,18 @@
+TestNG -- Test Next Generation. It is framework.
+
+
+It is an Open source framework.
+It is only Java based framework.
+
+Advantages:
+1. Purpose -- Design test cases in a systematic ways
+2. Generated html reports
+3. Lot of annotations
+4. We can define sequence of test cases using priorities
+5. Dependency feature it means one test case depend on other test cases.
+6. Grouping
+7. Data Provider -- Suppose if we want to execute login features with multiple set of data then data provider helpfull
+
+
+TestNG is called as TDD Framework. Test driven development framework.
+

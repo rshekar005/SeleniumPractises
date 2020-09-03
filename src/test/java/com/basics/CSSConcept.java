@@ -12,7 +12,7 @@ package com.basics;
  *                       .form-control.private-form__control.login-email
  *                       
  *  using attribute == //tagname[attribute='value']
- *  			Example: //div[@id='test']
+ *  			Example: //div[id='test']
  *  
  *  using multiple attribute == //tagname[attribute='value'][attribute2='value'] 
  *  contains == * symbol  --> ex: input[id*='user']

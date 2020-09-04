@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.basics.FileDownloadConcept">
+      <class name="com.singletonpattern.FreeCRMTest">
         <methods>
-          <include name="test"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyCRMTitle"/>
         </methods>
-      </class> <!-- com.basics.FileDownloadConcept -->
+      </class> <!-- com.singletonpattern.FreeCRMTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

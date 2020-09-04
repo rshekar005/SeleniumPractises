@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" name="Suite" parallel="methods">
+<suite thread-count="3" name="Suite" parallel="tests">
 <!--  Here used thread count as 3 it means 3 thread will run three methods which are declared in below class file
 In ParallelTesting class file contains 3 @test methods. Here thread count is 3 and parallel= methods, then three tests runs parallel in 3 threads
 If thread count is 2 then two threads will run 2 tests. When any thread gets free then remaining case will get execute.

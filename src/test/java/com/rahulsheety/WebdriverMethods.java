@@ -22,7 +22,8 @@ public class WebdriverMethods {
 		System.out.println("Title of the page is "+driver.getTitle());
 		System.out.println("Current URL is "+driver.getCurrentUrl());
 		driver.navigate().back();
-	
+		driver.close();//It closes current browser
+		driver.quit();//It will close all the browsers which are opened by webdriver.
 		
 	}
 

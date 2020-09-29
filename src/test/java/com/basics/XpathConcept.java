@@ -1,4 +1,4 @@
-package com.basics;
+ package com.basics;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -30,7 +30,9 @@ public class XpathConcept {
 		/*
 		 * Relative xpath:For Relative Xpath the path starts from the middle of the HTML DOM structure. 
 		 * It starts with the double forward slash (//), 
-		 * which means it can search the element anywhere at the webpage
+		 * which means it can search the element anywhere at the webpage.
+		 * 
+		 * Without knowing parent node we can directly switch to child node.It means it doesnot depend on parent node
 		 * 
 		 * Example: //*[@class='featured-box']//*[text()='Testing']
 		 */

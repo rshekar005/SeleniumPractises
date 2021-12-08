@@ -54,7 +54,9 @@ public class BrokenLinkTest {
 		System.out.println("Number of links and images present in a page :" + list.size());
 
 		List<WebElement> activelinks = new ArrayList<WebElement>();
-		
+		/**
+		 * 
+		 */
 		for (int i = 0; i < list.size(); i++) {
 			if (list.get(i).getAttribute("href") != null) {
 				activelinks.add(list.get(i));

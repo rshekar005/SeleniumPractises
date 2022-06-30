@@ -13,10 +13,10 @@ public class IncognitoMode {
 	public static void main(String[] args) {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--incognito");
-		DesiredCapabilities cap = DesiredCapabilities.chrome();
-		cap.setCapability(ChromeOptions.CAPABILITY, options);
+	/*	DesiredCapabilities cap = DesiredCapabilities.chrome();
+		cap.setCapability(ChromeOptions.CAPABILITY, options);*/
 		WebDriverManager.chromedriver().setup();
-		driver= new ChromeDriver(cap);
+		driver= new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("http:www.google.com");
 		

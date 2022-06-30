@@ -32,7 +32,6 @@ public class ActionsClassConcepts {
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS); // It is for webelement
 		//driver.switchTo().frame(0);
 		WebElement drag = driver.findElement(By.id("draggable"));
-	
 		
 		/* 1stway */
 		action.dragAndDrop(driver.findElement(By.id("draggable")), 

@@ -24,7 +24,7 @@ public class AlertPopExample
 		Alert alert = driver.switchTo().alert();
 		System.out.println(alert.getText());
 		alert.accept();// It will click on Ok button
-		alert.dismiss();// It will click on cancel button
+		//alert.dismiss();// It will click on cancel button
 		
 	}
 

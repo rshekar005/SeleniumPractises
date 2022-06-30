@@ -21,6 +21,7 @@ public class BasicDropdown {
 		driver.get("https://www.facebook.com/");
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//*[text()='Create New Account']")).click();
 		WebElement element=driver.findElement(By.id("month"));
 		
 		//Select class will display as a tag if it is not bootstrap down.

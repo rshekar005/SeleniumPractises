@@ -10,6 +10,22 @@ import org.openqa.selenium.interactions.Actions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+/**
+ * Action is an Interface
+ * Actions is a class.
+ *
+ * If we want to perform series of operations then we need to use actions class
+ *
+ * Example: Input Capital words in field.
+ *
+ * Then we need to press shift button + characters + release shift button
+ *
+ * All these are a series of actions we need to perform .
+ *
+ * build() is from actions class where as perform() is from action interface.
+ * Inorder to perform series of action then perform() is compulsory.
+ *
+ */
 public class ActionsClassConcepts {
 
 	static WebDriver driver;
@@ -18,7 +34,10 @@ public class ActionsClassConcepts {
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 		Actions action = new Actions(driver);
-		
+		/*
+		 * build() method in Actions class is use to create chain of action or operation you want to perform.
+		 * perform() this method in Actions Class is use to execute chain of action which are build using Action build method.
+		 */
 		
 	/*	 MovetoELemant method in actions
 	 * driver.get("https://spicejet.com");

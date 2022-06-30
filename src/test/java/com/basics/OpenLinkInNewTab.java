@@ -1,5 +1,7 @@
 package com.basics;
 
+import java.util.Iterator;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -22,6 +24,14 @@ public class OpenLinkInNewTab {
 		
 		String controlclick= Keys.chord(Keys.CONTROL, Keys.ENTER);
 		driver.findElement(By.xpath("//a[text()='Advertising']")).sendKeys(controlclick);
+
+		Set<String> windowns=driver.getWindowHandles();
+
+		Iterator<String> itr=windowns.iterator();
+				while(itr.hasNext()){
+					String childwindow=itr.next();
+					System.out.println(driver.switchTo().window(childwindow).getTitle());
+				}
 	}
 
 }

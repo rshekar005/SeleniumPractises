@@ -38,11 +38,11 @@ public class FileDownloadConcept {
 		Map<String, Object> prefs= new HashMap<String, Object>();
 		prefs.put("profile.default_content_settings.popups", 0);
 		prefs.put("download.prompt_for_download", false);
-	   /* prefs.put("download.default_directory", f.getAbsoluteFile());*/
-		
+	    prefs.put("download.default_directory", f.getAbsoluteFile().toString());
+
 		options.setExperimentalOption("prefs", prefs);
 		
-	/*	DesiredCapabilities cap = new DesiredCapabilities();
+		/*DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(ChromeOptions.CAPABILITY, options);*/
 		WebDriverManager.chromedriver().setup();
 		driver= new ChromeDriver(options);
